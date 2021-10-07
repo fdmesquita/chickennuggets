@@ -8,27 +8,35 @@ public class PlayerMove : MonoBehaviour
     public bool isJumping;
     public bool isGrounded;
 
-    public Transform groundCheckLeft;
-    public Transform groundCheckRight;
 
+    public Transform groundCheck;
+    public float groundCheckRadius;
+    public LayerMask collisionLayers;
+ 
     // windows in unity Majuscule > minuscule
     public Rigidbody2D rb;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
 
     private Vector3 velocity = Vector3.zero;
+    private float horizontalMovement;
+
 
 
     void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapArea(groundCheckLeft.position, groundCheckRight.position);
 
-        float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         MovePlayer(horizontalMovement);
+
     }
 
     void Update()
     {
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
+
+        horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+
+
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
@@ -56,13 +64,19 @@ public class PlayerMove : MonoBehaviour
     // le faire se retourner si on a une valeur negative en se deplacant vers la gauche
     void Flip(float _velocity)
     {
-        if (_velocity < 0.1f)
-        {
-            spriteRenderer.flipX = false;
-        }
-        else if (_velocity > -0.1f)
+        if (_velocity > 0.1f)
         {
             spriteRenderer.flipX = true;
         }
+        else if (_velocity < -0.1f)
+        {
+            spriteRenderer.flipX = false;
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
     }
 }
