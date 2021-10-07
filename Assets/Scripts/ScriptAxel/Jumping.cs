@@ -8,7 +8,6 @@ public class Jumping : MonoBehaviour
     private void Awake()
     {
         jump = GameObject.FindGameObjectWithTag("Jump").GetComponent<Animator>();
-        // Debug.Log(jump);
     }
 
      private void OnTriggerEnter2D(Collider2D collision)
