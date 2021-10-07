@@ -64,13 +64,13 @@ public class PlayerMove : MonoBehaviour
     // le faire se retourner si on a une valeur negative en se deplacant vers la gauche
     void Flip(float _velocity)
     {
-        if (_velocity < 0.1f)
-        {
-            spriteRenderer.flipX = false;
-        }
-        else if (_velocity > -0.1f)
+        if (_velocity > 0.1f)
         {
             spriteRenderer.flipX = true;
+        }
+        else if (_velocity < -0.1f)
+        {
+            spriteRenderer.flipX = false;
         }
     }
 
