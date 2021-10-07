@@ -8,6 +8,7 @@ public class PlayerMove : MonoBehaviour
     public bool isJumping;
     public bool isGrounded;
 
+
     public Transform groundCheckLeft;
     public Transform groundCheckRight;
 
@@ -25,6 +26,7 @@ public class PlayerMove : MonoBehaviour
 
         float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
         MovePlayer(horizontalMovement);
+
     }
 
     void Update()
