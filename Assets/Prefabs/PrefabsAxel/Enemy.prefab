@@ -185,13 +185,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6370899341033263655}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43dfa1179a4fa0b48884b2db1c0659b6, type: 3}
+  m_Script: {fileID: 11500000, guid: d23159128828c424cbb924cc2952c201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.2
+  speed: 1
   waypoints:
   - {fileID: 6370899341173298064}
   - {fileID: 6370899340881575320}
+  damageOnCollision: 20
   graphics: {fileID: 6370899341033263650}
 --- !u!95 &6370899341033263649
 Animator:
@@ -309,10 +310,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6370899341758351803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90da594f5b295ef47a72cc168af6d5aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f82e85809751904fb1d3b7a546c792e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 6370899340517007905}
+  killSound: {fileID: 0}
 --- !u!1 &6370899342046762603
 GameObject:
   m_ObjectHideFlags: 0
