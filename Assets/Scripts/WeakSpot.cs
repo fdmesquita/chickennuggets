@@ -3,14 +3,15 @@ using UnityEngine;
 public class WeakSpot : MonoBehaviour
 {
     public GameObject objectToDestroy;
-    public AudioClip killSound;
+	// public GameObject objectToCreate;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+	private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            //AudioManager.instance.PlayClipAt(killSound, transform.position);
-            Destroy(objectToDestroy);
-        }
+					Destroy(objectToDestroy, 0.1f);
+			// Instantiate(objectToCreate);
+				}
     }
+
 }
