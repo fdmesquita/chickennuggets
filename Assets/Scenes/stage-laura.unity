@@ -6733,8 +6733,8 @@ GameObject:
   - component: {fileID: 1960928653}
   - component: {fileID: 1960928657}
   - component: {fileID: 1960928656}
-  - component: {fileID: 1960928655}
   - component: {fileID: 1960928654}
+  - component: {fileID: 1960928655}
   m_Layer: 0
   m_Name: Fatbird
   m_TagString: Untagged
@@ -6792,14 +6792,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1960928652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eebe78044943470fbecca2ae9e84251, type: 3}
+  m_Script: {fileID: 11500000, guid: d472cfc8af0c97841915e844981dd81f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 3
   waypoints:
   - {fileID: 2078018520}
   - {fileID: 1949506482}
-  fatbird: {fileID: 0}
+  damageOnCollision: 20
+  graphics: {fileID: 0}
 --- !u!95 &1960928656
 Animator:
   serializedVersion: 3
@@ -13948,7 +13949,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1304956056909206154, guid: f05d50716e66b5b45b95a34b2927ba61, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f05d50716e66b5b45b95a34b2927ba61, type: 3}
 --- !u!1001 &6275356849121290285
 PrefabInstance:
