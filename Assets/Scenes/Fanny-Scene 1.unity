@@ -558,9 +558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 916db62006bce49ce9f213fbef641db8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1951072077}
-  timeOffset: 0.2
-  posOffset: {x: 1.36, y: 1.36, z: -10}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -89312,7 +89309,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 1673398984}
-  killSound: {fileID: 0}
 --- !u!1 &1604605655
 GameObject:
   m_ObjectHideFlags: 0
@@ -89374,7 +89370,11 @@ Transform:
   - {fileID: 1604605656}
   - {fileID: 1946649245}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 3
+=======
+  m_RootOrder: 2
+>>>>>>> 7937c77766783356f12715ae8c0e36172796906a
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1946649244
 GameObject:
@@ -89406,6 +89406,7 @@ Transform:
   m_Father: {fileID: 1673398985}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1951072077 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2214027909582481929, guid: fe4ba174fa273a94aa43c7d843033b53, type: 3}
@@ -89468,3 +89469,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe4ba174fa273a94aa43c7d843033b53, type: 3}
+=======
+>>>>>>> 7937c77766783356f12715ae8c0e36172796906a
