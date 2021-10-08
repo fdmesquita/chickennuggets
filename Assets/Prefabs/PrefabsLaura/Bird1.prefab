@@ -252,7 +252,7 @@ MonoBehaviour:
   - {fileID: 6275356849456184347}
   - {fileID: 6275356849035843625}
   damageOnCollision: 20
-  graphics: {fileID: 0}
+  graphics: {fileID: 6275356849001816302}
 --- !u!1 &6275356849035843630
 GameObject:
   m_ObjectHideFlags: 0

@@ -253,7 +253,7 @@ MonoBehaviour:
   - {fileID: 1699083552508306121}
   - {fileID: 1699083552445887732}
   damageOnCollision: 20
-  graphics: {fileID: 0}
+  graphics: {fileID: 1699083553729586847}
 --- !u!61 &1699083553729586842
 BoxCollider2D:
   m_ObjectHideFlags: 0
