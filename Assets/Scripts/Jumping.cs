@@ -14,8 +14,6 @@ public class Jumping : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            // Debug.Log("Poulet Jumpe!!");
-            // jump.SetBool("isTrigger", true);
             jump.SetTrigger("Jumping");
         }
     }
