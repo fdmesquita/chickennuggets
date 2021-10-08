@@ -245,14 +245,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1699083553729586817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23438fa186d33304f942b2833d39735a, type: 3}
+  m_Script: {fileID: 11500000, guid: d472cfc8af0c97841915e844981dd81f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.5
+  speed: 2
   waypoints:
   - {fileID: 1699083552508306121}
   - {fileID: 1699083552445887732}
-  fatbird: {fileID: 1699083553729586847}
+  damageOnCollision: 20
+  graphics: {fileID: 0}
 --- !u!61 &1699083553729586842
 BoxCollider2D:
   m_ObjectHideFlags: 0

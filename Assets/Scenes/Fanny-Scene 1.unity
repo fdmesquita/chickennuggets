@@ -995,7 +995,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &519420029
 AudioListener:
   m_ObjectHideFlags: 0
@@ -86578,7 +86578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1355976791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86735,7 +86735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1358712103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92083,7 +92083,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!70 &1951072078
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -92648,6 +92648,10 @@ PrefabInstance:
     - target: {fileID: 4419800804878836463, guid: 04cb19b3b54164c49a31a25a28338efa, type: 3}
       propertyPath: m_Name
       value: Inventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419800804878836463, guid: 04cb19b3b54164c49a31a25a28338efa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cb19b3b54164c49a31a25a28338efa, type: 3}
