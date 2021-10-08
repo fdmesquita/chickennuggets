@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 217872164948082024}
   - component: {fileID: 6216546707497377753}
   - component: {fileID: 217872164948082021}
-  - component: {fileID: 6059499264951709227}
   - component: {fileID: 217872164948082026}
   m_Layer: 3
   m_Name: player 1
@@ -77,15 +76,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 7166236263522030466, guid: 97c42652708e24637840f8affed58895, type: 3}
+  m_Sprite: {fileID: -23792059411196189, guid: 39308706f9428496dad41aedede27a18, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.0625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &217872164948082024
@@ -126,7 +125,7 @@ MonoBehaviour:
   isJumping: 0
   isGrounded: 0
   groundCheck: {fileID: 217872164993457117}
-  groundCheckRadius: 0.6
+  groundCheckRadius: 0.3
   collisionLayers:
     serializedVersion: 2
     m_Bits: 1
@@ -143,7 +142,7 @@ Animator:
   m_GameObject: {fileID: 217872164948082020}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c289ee86561054eef9617776e927b8f0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 50e5cb4354f5f40b793c0234159ffced, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -152,25 +151,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6059499264951709227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217872164948082020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd75682d544614187b6ed7245a57aa86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  invincibilityTimeAfterHit: 3
-  invincibilityFlashDelay: 0.2
-  isInvincible: 0
-  graphics: {fileID: 217872164948082030}
-  healthBar: {fileID: 0}
 --- !u!70 &217872164948082026
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -211,7 +191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217872164993457116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.024, y: -0.22, z: 0}
+  m_LocalPosition: {x: -0.027, y: -0.442, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 217872164948082031}
