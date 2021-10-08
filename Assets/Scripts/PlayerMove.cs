@@ -32,10 +32,8 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        
 
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {

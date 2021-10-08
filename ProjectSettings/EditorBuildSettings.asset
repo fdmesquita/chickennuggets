@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TristanStage.unity
     guid: a6db3cb52c449574bbfcc1c1dae44759
+  - enabled: 1
+    path: Assets/Scenes/GuillaumeScene.unity
+    guid: 03c55bca839ff4be5acd672e3c8492cd
+  - enabled: 1
+    path: Assets/Scenes/Max - Scene.unity
+    guid: abbdd620a2c75784f89a445cd752db2e
   m_configObjects: {}
