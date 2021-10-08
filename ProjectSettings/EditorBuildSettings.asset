@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/GuillaumeScene.unity
     guid: 03c55bca839ff4be5acd672e3c8492cd
   - enabled: 1
-    path: Assets/Scenes/Max - Scene.unity
+    path: Assets/Scenes/MaximeScene.unity
     guid: abbdd620a2c75784f89a445cd752db2e
   m_configObjects: {}

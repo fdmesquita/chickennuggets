@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 6275356849001816302}
   - component: {fileID: 6275356849001816303}
   - component: {fileID: 6275356849001816296}
-  - component: {fileID: 6275356849001816299}
+  - component: {fileID: 1987843894483712904}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -235,7 +235,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.24173585}
   m_EdgeRadius: 0
---- !u!114 &6275356849001816299
+--- !u!114 &1987843894483712904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -244,14 +244,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6275356849001816300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f2c83dd63c50ae48b4338a0272fe301, type: 3}
+  m_Script: {fileID: 11500000, guid: 65d2fd4fe0b2d3a4cb68ec17ab1f6bc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   waypoints:
   - {fileID: 6275356849456184347}
   - {fileID: 6275356849035843625}
-  bird: {fileID: 6275356849001816302}
+  damageOnCollision: 20
+  graphics: {fileID: 0}
 --- !u!1 &6275356849035843630
 GameObject:
   m_ObjectHideFlags: 0
