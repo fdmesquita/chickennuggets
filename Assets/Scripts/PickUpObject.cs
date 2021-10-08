@@ -1,13 +1,16 @@
-
 using UnityEngine;
 
 public class PickUpObject : MonoBehaviour
 {
+    public AudioClip sound;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            Inventory.instance.AddCoins(1);
+            //AudioManager.instance.PlayClipAt(sound, transform.position);
+            Inventory.instance.AddFruits(1);
+            //CurrentSceneManager.instance.coinsPickedUpInThisSceneCount++;
             Destroy(gameObject);
         }
     }
