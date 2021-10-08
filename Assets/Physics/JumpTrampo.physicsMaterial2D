@@ -6,6 +6,6 @@ PhysicsMaterial2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bouncy 1
+  m_Name: JumpTrampo
   friction: 0
-  bounciness: 2
+  bounciness: 1.5
