@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 217872164948082024}
   - component: {fileID: 6216546707497377753}
   - component: {fileID: 217872164948082021}
-  - component: {fileID: 6059499264951709227}
+  - component: {fileID: 3223955960503976322}
   - component: {fileID: 217872164948082026}
   m_Layer: 3
   m_Name: player 1
@@ -143,7 +143,7 @@ Animator:
   m_GameObject: {fileID: 217872164948082020}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c289ee86561054eef9617776e927b8f0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 50e5cb4354f5f40b793c0234159ffced, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -152,7 +152,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6059499264951709227
+--- !u!114 &3223955960503976322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,12 +161,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 217872164948082020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd75682d544614187b6ed7245a57aa86, type: 3}
+  m_Script: {fileID: 11500000, guid: 6770e2203bf74ee4a9d96fee1cc96467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 3
   currentHealth: 0
-  invincibilityTimeAfterHit: 3
+  invincibilityTimeAfterHit: 1.5
   invincibilityFlashDelay: 0.2
   isInvincible: 0
   graphics: {fileID: 217872164948082030}
