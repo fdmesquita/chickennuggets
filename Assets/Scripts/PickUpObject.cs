@@ -9,7 +9,7 @@ public class PickUpObject : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             //AudioManager.instance.PlayClipAt(sound, transform.position);
-            //Inventory.instance.AddCoins(1);
+            Inventory.instance.AddFruits(1);
             //CurrentSceneManager.instance.coinsPickedUpInThisSceneCount++;
             Destroy(gameObject);
         }
