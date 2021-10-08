@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/AxelScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/AxelSecretStage.unity
+    guid: 84580e59aa9a37044992193bc362d186
+  - enabled: 1
     path: Assets/Scenes/Fanny-Scene 1.unity
     guid: a85bbf01641911245a9ecb97a6b21fca
   - enabled: 1
