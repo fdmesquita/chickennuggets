@@ -193,6 +193,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1344202336}
   - {fileID: 1784379689}
+  damageOnCollision: 20
   graphics: {fileID: 59690920}
 --- !u!61 &59690919
 BoxCollider2D:
@@ -271,6 +272,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &64072439
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4800801627077849409, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_Name
+      value: End
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.388775
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.9197898
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 248.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849420, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4800801627077849421, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
+      propertyPath: sceneName
+      value: AxelScene
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4570e1182c1d2b8449acf25e09218bc8, type: 3}
 --- !u!1 &86756554
 GameObject:
   m_ObjectHideFlags: 0
@@ -8165,6 +8235,7 @@ MonoBehaviour:
   - {fileID: 729004139}
   - {fileID: 976461940}
   - {fileID: 124881929}
+  damageOnCollision: 20
   graphics: {fileID: 674984819}
 --- !u!61 &674984818
 BoxCollider2D:
@@ -8358,6 +8429,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1708927597}
   - {fileID: 111032684}
+  damageOnCollision: 20
   graphics: {fileID: 776648481}
 --- !u!61 &776648480
 BoxCollider2D:
@@ -8539,6 +8611,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 2095428718}
   - {fileID: 1090168535}
+  damageOnCollision: 20
   graphics: {fileID: 823405892}
 --- !u!61 &823405891
 BoxCollider2D:
@@ -58375,6 +58448,7 @@ MonoBehaviour:
   - {fileID: 1190769544}
   - {fileID: 2139445408}
   - {fileID: 171696392}
+  damageOnCollision: 20
   graphics: {fileID: 1184360521}
 --- !u!61 &1184360520
 BoxCollider2D:
@@ -61732,11 +61806,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2214027909582481942, guid: fe4ba174fa273a94aa43c7d843033b53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.14
+      value: 16.85
       objectReference: {fileID: 0}
     - target: {fileID: 2214027909582481942, guid: fe4ba174fa273a94aa43c7d843033b53, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.19
+      value: -4.31
       objectReference: {fileID: 0}
     - target: {fileID: 2214027909582481942, guid: fe4ba174fa273a94aa43c7d843033b53, type: 3}
       propertyPath: m_LocalPosition.z
@@ -61803,7 +61877,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  invincibilityTimeAfterHit: 3
+  invincibilityFlashDelay: 0.2
+  isInvincible: 0
+  graphics: {fileID: 1515247184}
   healthBar: {fileID: 474652841}
+--- !u!212 &1515247184 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2214027909582481941, guid: fe4ba174fa273a94aa43c7d843033b53, type: 3}
+  m_PrefabInstance: {fileID: 1515247177}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1575269678
 GameObject:
   m_ObjectHideFlags: 0
@@ -62210,6 +62293,8 @@ MonoBehaviour:
   waypoints:
   - {fileID: 751325129}
   - {fileID: 944380769}
+  damageOnCollision: 20
+  graphics: {fileID: 1770959296}
 --- !u!1 &1784379688
 GameObject:
   m_ObjectHideFlags: 0
@@ -62387,7 +62472,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.025119383, y: 0.1330748}
@@ -62488,7 +62573,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.009623848, y: 0.12306467}
@@ -62631,6 +62716,10 @@ PrefabInstance:
     - target: {fileID: 8110301135191905140, guid: c4d0503cfc7f995468cf55386cbabe73, type: 3}
       propertyPath: m_Name
       value: PlayerSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 8110301135191905140, guid: c4d0503cfc7f995468cf55386cbabe73, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4d0503cfc7f995468cf55386cbabe73, type: 3}
